@@ -4,7 +4,7 @@ This is a project repository for the study "Alive and Connected: A Microsimulati
 # Motivation
 The purpose of this study is to showcase a data translation procedure that takes aggregate demographic rate inputs (e.g. life tables and central fertility rate schedules) and generates the implied kinship network data using a microsimulation technique.
 
-![PIC]
+![translation](translation.svg)
 
 # Data
 There are two RData files included here:
