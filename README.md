@@ -12,13 +12,14 @@ There are two RData files included here:
 1. black_2000.RData
 2. white_2000.RData
 
-These are the raw outputs from the SOCSIM microsimulator for black and white populations with demographic inputs for the year 2000. These RData objects contain a list of 10 datasets (one for each replicate simulation run). Each dataset contains information on the following characteristics of each simulated individual:
+These are the raw outputs from the SOCSIM microsimulator for black and white populations with demographic inputs for the year 2000. These RData objects contain a list of ??? datasets (one for each replicate simulation run). Each dataset contains information on the following characteristics of each simulated individual:
 
 | Variable Name   | Description               |
 | --------------- | -----------               |
-| caseid          | person ID number          |
-| dob             | date of birth             |
-| dod             | date of death             |
+| pid             | person ID number          |
+| dob             | month of birth            |
+| dod             | month of death            |
+| fem             | indicator for female      |
 | mom             | mother's ID               |
 | pop             | father's ID               |
 | mate            | partner's ID              |
@@ -28,7 +29,7 @@ These are the raw outputs from the SOCSIM microsimulator for black and white pop
 | pop_pop         | paternal grandfather's ID |
 
 # Reproduction
-All the code necessary to recreate the network data and results from the RData files are included in the "TITLE.R" R script file. 
+All the code necessary to recreate the network data and results from the RData files are included in the "dem_networks.R" R script file. 
 
 # The SOCSIM Microsimulator
 Additional information regarding SOCSIM, the microsimulator used in this demonstration, can be found at: <http://lab.demog.berkeley.edu/socsim>
