@@ -7,12 +7,12 @@ The purpose of this study is to showcase a data translation procedure that takes
 ![translation](translation.png)
 
 # Data
-There are two RData files included here:
+There are two RData files included in the data.zip archive:
 
 1. black_2000.RData
 2. white_2000.RData
 
-These are the raw outputs from the SOCSIM microsimulator for black and white populations with demographic inputs for the year 2000. These RData objects contain a list of ??? datasets (one for each replicate simulation run). Each dataset contains information on the following characteristics of each simulated individual:
+These are the raw outputs from the SOCSIM microsimulator for black and white populations with demographic inputs for the year 2000. These RData objects contain a list of five datasets (one for each replicate simulation run). Each dataset contains information on the following characteristics of each simulated individual:
 
 | Variable Name   | Description               |
 | --------------- | -----------               |
